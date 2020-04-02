@@ -1,15 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `IT блог`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Кизилов Юрий`,
+      summary: `Javascript разработчик`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `Публикую в этом блоге переводы интересных статей по JS.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
-    social: {
-      twitter: `kylemathews`,
-    },
   },
   plugins: [
     {
@@ -33,7 +30,7 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 590,
+              maxWidth: 700,
             },
           },
           {
@@ -80,4 +77,5 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
-}
+};
+
