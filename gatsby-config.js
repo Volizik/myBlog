@@ -6,7 +6,7 @@ module.exports = {
       summary: `Javascript разработчик`,
     },
     description: `Публикую в этом блоге переводы интересных статей по JS.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    siteUrl: `https://volizik-blog.netlify.com/`,
   },
   plugins: [
     {
